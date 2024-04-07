@@ -1,0 +1,25 @@
+Cher Iuli,
+
+Malheureusement, il n'y a pas à ma connaissance de Thonny pour Python. Il faut doonc installer Python directement. 
+
+Je ne sais pas si tu as pu installer Python sur Linux. Si tu ne l'as pas déjà fait, c'est à l'adresse https://www.python.org/downloads/release/python-3122/. Mais il y a aussi des packages tout prêts pour chacune des distributions.
+
+Toute la doc est ici: https://docs.python.org/3/. Elle est très bien faite. 
+
+Pour installer des modules externes comme requests, pandas, matplotlib, etc., utilise le site central https://pypi.org/. Tu entres le nom de ton module, par exemple pandas. Tu cliques sur la dernière version, tu copies-colles "pip install pandas" dans un terminal et le tour est joué. Il faut que tu installes chacun des modules **externes** qui apparaissent dans une ligne "import". Attention, il faut aussi importer les modules de la distribution standard que tu programme utilises, comme en Java.
+
+Python fournit en standard un éditeur simple à utiliser, une sorte de Thonny, Il s'appelle IDLE: https://docs.python.org/3/library/idle.html. Pour l'ouvrir, il suffit de taper idle dans le terminal. Voir https://doc.ubuntu-fr.org/idle. NB. Il faut peut-être installer le paquet "idle" s'il n'est pas déjà installé par le paquet Python de base.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

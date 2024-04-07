@@ -1,0 +1,16 @@
+[project]
+name = "Meteo"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [{ name = "Luc Bougé", email = "Luc.Bouge@ens-rennes.fr" }]
+dependencies = ["requests>=2.31.0", "pandas>=2.2.1", "matplotlib>=3.8.3"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.scripts]
+make = "python src/meteo/meteo.py"
+clean = { shell = "rm -rf meteo.csv* .~lock.meteo.* src/meteo/*.zip; ls -la" }
