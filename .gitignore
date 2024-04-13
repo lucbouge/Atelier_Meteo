@@ -3,7 +3,7 @@
 .vscode/
 *.csv.gz
 pdm.lock
-/stc/meteo/meteo.pdf
+/src/meteo/meteo.pdf
 
 
 # Byte-compiled / optimized / DLL files
