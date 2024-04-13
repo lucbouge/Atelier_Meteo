@@ -1,8 +1,12 @@
+import matplotlib.backend_bases
 import pandas as pd
 import requests
+import matplotlib
 import matplotlib.pyplot as plt
 import re
 from datetime import datetime
+
+print(matplotlib.get_backend())
 
 METEO_URL = (
     "https://www.data.gouv.fr/fr/datasets/r/45ffe00f-6b32-4093-93b3-66c0eef3704e"
@@ -50,6 +54,7 @@ def show_data(*, data1, field1, data2, field2, title):
     ax.plot(data1, label=field1)
     ax.plot(data2, label=field2)
     ax.legend()
+    plt.savefig("meteo.pdf")
     plt.show()
 
 
